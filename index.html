@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokéSearch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">◈ PokéSearch</div>
+    <p class="tagline">Busca cualquier Pokémon por nombre o número</p>
+  </header>
+
+  <main>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input
+        id="search-input"
+        type="text"
+        placeholder="charizard, pikachu, 25..."
+        autocomplete="off"
+      >
+      <button id="search-btn">Buscar</button>
+    </div>
+
+    <div class="examples">
+      <span class="example-chip" data-name="pikachu">pikachu</span>
+      <span class="example-chip" data-name="charizard">charizard</span>
+      <span class="example-chip" data-name="mewtwo">mewtwo</span>
+      <span class="example-chip" data-name="gengar">gengar</span>
+      <span class="example-chip" data-name="eevee">eevee</span>
+    </div>
+
+    <div id="result"></div>
+  </main>
+
+  <footer>
+    Construido con JavaScript + <a href="https://pokeapi.co" target="_blank">PokeAPI</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
