@@ -21,3 +21,17 @@ Buscador de Pokémon con datos en tiempo real de la PokeAPI, construido con Java
 - Chips de ejemplo para búsqueda rápida
 
 ## 📁 Estructura
+
+pokesearch/
+├── index.html
+├── style.css
+└── app.js
+
+## 🔑 API utilizada
+
+- **PokeAPI:** https://pokeapi.co
+- Gratuita · Sin API key · Sin límite de requests
+
+## 👨‍💻 Autor
+
+**Juan Elejalde** — Proyecto de portafolio · Plan QA Automation / Frontend Junior 
