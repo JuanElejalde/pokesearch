@@ -22,10 +22,12 @@ Buscador de Pokémon con datos en tiempo real de la PokeAPI, construido con Java
 
 ## 📁 Estructura
 
+```
 pokesearch/
-├── index.html
-├── style.css
-└── app.js
+├── index.html    # Estructura HTML
+├── style.css     # Estilos y diseño
+└── app.js        # Lógica y consumo de PokeAPI
+```
 
 ## 🔑 API utilizada
 
